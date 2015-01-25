@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mainServlet</servlet-name>
+    <servlet-class>servlet.mainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>p</servlet-name>
+    <servlet-class>model.p</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addMessage</servlet-name>
+    <servlet-class>servlet.addMessage</servlet-class>
+  </servlet>
+  <servlet>
+  <description>This is the description of my J2EE component</description> 
+  <display-name>This is the display name of my J2EE component</display-name> 
+  <servlet-name>RegisterServlet</servlet-name> 
+  <servlet-class>servlet.RegisterServlet</servlet-class> 
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>exit</servlet-name>
+    <servlet-class>servlet.exit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>displyAllMessage</servlet-name>
+    <servlet-class>servlet.displyAllMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>replyMessage</servlet-name>
+    <servlet-class>servlet.replyMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>goodMessage</servlet-name>
+    <servlet-class>servlet.goodMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryMessage</servlet-name>
+    <servlet-class>servlet.queryMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginManager</servlet-name>
+    <servlet-class>servlet.loginManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userDisplyManager</servlet-name>
+    <servlet-class>servlet.userDisplyManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateUser</servlet-name>
+    <servlet-class>servlet.updateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteUser</servlet-name>
+    <servlet-class>servlet.deleteUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>setUserPwd</servlet-name>
+    <servlet-class>servlet.setUserPwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>setAdmin</servlet-name>
+    <servlet-class>servlet.setAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>outLoginAdmin</servlet-name>
+    <servlet-class>servlet.outLoginAdmin</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>mainServlet</servlet-name>
+    <url-pattern>/servlet/mainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>p</servlet-name>
+    <url-pattern>/servlet/p</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addMessage</servlet-name>
+    <url-pattern>/servlet/addMessage</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  <servlet-name>RegisterServlet</servlet-name> 
+  <url-pattern>/servlet/RegisterServlet</url-pattern> 
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>exit</servlet-name>
+    <url-pattern>/servlet/exit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>displyAllMessage</servlet-name>
+    <url-pattern>/servlet/displyAllMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>replyMessage</servlet-name>
+    <url-pattern>/servlet/replyMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>goodMessage</servlet-name>
+    <url-pattern>/servlet/goodMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryMessage</servlet-name>
+    <url-pattern>/servlet/queryMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginManager</servlet-name>
+    <url-pattern>/servlet/loginManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userDisplyManager</servlet-name>
+    <url-pattern>/servlet/userDisplyManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateUser</servlet-name>
+    <url-pattern>/servlet/updateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteUser</servlet-name>
+    <url-pattern>/servlet/deleteUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>setUserPwd</servlet-name>
+    <url-pattern>/servlet/setUserPwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>setAdmin</servlet-name>
+    <url-pattern>/servlet/setAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>outLoginAdmin</servlet-name>
+    <url-pattern>/servlet/outLoginAdmin</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

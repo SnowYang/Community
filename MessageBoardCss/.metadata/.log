@@ -1,0 +1,468 @@
+!SESSION 2014-12-03 14:40:28.643 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\薛云鹏\Desktop\第十九次课\MessageBoardCss
+
+!ENTRY org.eclipse.jface 2 0 2014-12-03 14:40:35.435
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-03 14:40:35.435
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@12f15b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-12-03 14:40:39.146
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.ui.workbench 4 2 2014-12-03 14:40:39.156
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 107
+	at com.genuitec.eclipse.core.C.Ą(Unknown Source)
+	at com.genuitec.eclipse.core.A.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.C.ę(Unknown Source)
+	at com.genuitec.eclipse.core.C.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ą(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ć(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ā(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.isLicenseValidPro(Unknown Source)
+	at com.genuitec.eclipse.core.vU.ă(Unknown Source)
+	at com.genuitec.eclipse.core.vU.BP__111164asdlkfjw2asl_23(Unknown Source)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.earlyStartup(PerspectivePlugin.java:176)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:73)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2192)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2014-12-03 14:40:39.156
+!MESSAGE Unhandled Exception
+
+!ENTRY com.genuitec.myeclipse.perspective 4 0 2014-12-03 14:40:39.156
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 107
+	at com.genuitec.eclipse.core.C.Ą(Unknown Source)
+	at com.genuitec.eclipse.core.A.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.C.ę(Unknown Source)
+	at com.genuitec.eclipse.core.C.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ą(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ć(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ā(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.isLicenseValidPro(Unknown Source)
+	at com.genuitec.eclipse.core.vU.ă(Unknown Source)
+	at com.genuitec.eclipse.core.vU.BP__111164asdlkfjw2asl_23(Unknown Source)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.earlyStartup(PerspectivePlugin.java:176)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:73)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2192)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.386
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.586
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.626
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.666
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.696
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.736
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.796
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.836
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.876
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:41.976
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:40:42.006
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+!SESSION 2014-12-03 14:41:29.960 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2014-12-03 14:41:35.624
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-03 14:41:35.624
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@14a8134,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-12-03 14:41:36.614
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.ui.workbench 4 2 2014-12-03 14:41:36.624
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 107
+	at com.genuitec.eclipse.core.C.Ą(Unknown Source)
+	at com.genuitec.eclipse.core.A.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.C.ę(Unknown Source)
+	at com.genuitec.eclipse.core.C.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ą(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ć(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ā(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.isLicenseValidPro(Unknown Source)
+	at com.genuitec.eclipse.core.vU.ă(Unknown Source)
+	at com.genuitec.eclipse.core.vU.BP__111164asdlkfjw2asl_23(Unknown Source)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.earlyStartup(PerspectivePlugin.java:176)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:73)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2192)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2014-12-03 14:41:36.624
+!MESSAGE Unhandled Exception
+
+!ENTRY com.genuitec.myeclipse.perspective 4 0 2014-12-03 14:41:36.624
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 107
+	at com.genuitec.eclipse.core.C.Ą(Unknown Source)
+	at com.genuitec.eclipse.core.A.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.C.ę(Unknown Source)
+	at com.genuitec.eclipse.core.C.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ą(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ć(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ā(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.isLicenseValidPro(Unknown Source)
+	at com.genuitec.eclipse.core.vU.ă(Unknown Source)
+	at com.genuitec.eclipse.core.vU.BP__111164asdlkfjw2asl_23(Unknown Source)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.earlyStartup(PerspectivePlugin.java:176)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:73)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2192)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.694
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.714
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.714
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.724
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.724
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.724
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.734
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.734
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.734
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.734
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-03 14:41:36.744
+!MESSAGE Installed snippet library: C:\Users\薛云鹏\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+!SESSION 2014-12-03 14:43:53.998 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\薛云鹏\Desktop\第十九次课\MessageBoardCss
+
+!ENTRY org.eclipse.jface 2 0 2014-12-03 14:43:59.719
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-03 14:43:59.719
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@1e2edad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-12-03 14:44:00.629
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.ui.workbench 4 2 2014-12-03 14:44:00.639
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 107
+	at com.genuitec.eclipse.core.C.Ą(Unknown Source)
+	at com.genuitec.eclipse.core.A.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.C.ę(Unknown Source)
+	at com.genuitec.eclipse.core.C.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ą(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ć(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ā(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.isLicenseValidPro(Unknown Source)
+	at com.genuitec.eclipse.core.vU.ă(Unknown Source)
+	at com.genuitec.eclipse.core.vU.BP__111164asdlkfjw2asl_23(Unknown Source)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.earlyStartup(PerspectivePlugin.java:176)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:73)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2192)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2014-12-03 14:44:00.639
+!MESSAGE Unhandled Exception
+
+!ENTRY com.genuitec.myeclipse.perspective 4 0 2014-12-03 14:44:00.639
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 107
+	at com.genuitec.eclipse.core.C.Ą(Unknown Source)
+	at com.genuitec.eclipse.core.A.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ă(Unknown Source)
+	at com.genuitec.eclipse.core.A.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.ā(Unknown Source)
+	at com.genuitec.eclipse.core.C.Ă(Unknown Source)
+	at com.genuitec.eclipse.core.C.ę(Unknown Source)
+	at com.genuitec.eclipse.core.C.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ą(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ć(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ā(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.isLicenseValidPro(Unknown Source)
+	at com.genuitec.eclipse.core.vU.ă(Unknown Source)
+	at com.genuitec.eclipse.core.vU.BP__111164asdlkfjw2asl_23(Unknown Source)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.earlyStartup(PerspectivePlugin.java:176)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:73)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2192)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2014-12-03 14:54:38.351 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2014-12-03 14:55:25.042
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-03 14:55:25.042
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@bed4c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-12-03 14:55:31.937
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-12-03 14:57:45.619
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: JavaMetaUtils_warning_default_package in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_doesnt_exist_message in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_doesnt_exist_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_not_jre_message in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_not_jre_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: JavaVMUtility_launchconfig_default_server_type_id_attr in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryFieldEditor_dialog_browse_jar_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryFieldEditor_dialog_invalidfile_message in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryFieldEditor_dialog_invalidfile_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_add_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_down_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_edit_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_remove_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_up_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryWizardPage_description in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryWizardPage_error_selection_onlyone in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryWizardPage_error_selection_zero in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryWizardPage_list_library_selector_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-03 14:57:55.416
+!MESSAGE NLS missing message: MELibraryWizardPage_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.ui.workbench 2 0 2014-12-03 15:00:16.257
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2014-12-03 15:00:16.257
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@17d577c,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1fabac3,
+	expression=,sourcePriority=0)

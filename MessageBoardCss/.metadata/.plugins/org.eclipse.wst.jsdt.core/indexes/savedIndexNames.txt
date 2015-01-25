@@ -1,0 +1,6 @@
+INDEX VERSION 1.121+E:\µÚÊ®¾Å´Î¿Î\MessageBoardCss\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2910377090.index
+2588370393.index
+224659790.index
+2910209299.index
+95681266.index
